@@ -1,0 +1,30 @@
+# Python & Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Secrets & Config
+.env
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Data (your PDFs)
+data/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
